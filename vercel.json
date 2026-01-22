@@ -1,4 +1,14 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/carlife", "destination": "/carlife.html" },
+    { "source": "/app", "destination": "/app.html" },
+    { "source": "/founder", "destination": "/founder.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/our-story", "destination": "/our-story.html" },
+    { "source": "/support", "destination": "/support.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" }
+  ]
 }
