@@ -1,14 +1,14 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/carlife", "destination": "/carlife.html" },
-    { "source": "/app", "destination": "/app.html" },
-    { "source": "/founder", "destination": "/founder.html" },
-    { "source": "/blog", "destination": "/blog.html" },
-    { "source": "/our-story", "destination": "/our-story.html" },
-    { "source": "/support", "destination": "/support.html" },
-    { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/terms", "destination": "/terms.html" }
+  "routes": [
+    { "src": "/carlife", "dest": "/carlife.html" },
+    { "src": "/app", "dest": "/app.html" },
+    { "src": "/founder", "dest": "/founder.html" },
+    { "src": "/blog", "dest": "/blog.html" },
+    { "src": "/our-story", "dest": "/our-story.html" },
+    { "src": "/support", "dest": "/support.html" },
+    { "src": "/privacy", "dest": "/privacy.html" },
+    { "src": "/terms", "dest": "/terms.html" }
   ]
 }
